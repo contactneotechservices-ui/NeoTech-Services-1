@@ -25,9 +25,9 @@ import { Resend } from 'resend';
 // CONFIGURATION
 // ================================================================
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const CONTACT_EMAIL  = process.env.CONTACT_EMAIL  || 'CONTACT@NEOTECH-SERVICE.COM';
+const CONTACT_EMAIL  = process.env.CONTACT_EMAIL  || 'CONTACT@NEOTECH-SERVICES.COM';
 const FROM_EMAIL     = process.env.FROM_EMAIL      || 'noreply@neotech-service.com';
-const SITE_URL       = process.env.SITE_URL        || 'https://www.neotech-service.com';
+const SITE_URL       = process.env.SITE_URL        || 'https://neotech-service.com';
 
 // Rate limiting en mémoire (remplacer par Redis sur production haute charge)
 const rateLimitStore = new Map();
